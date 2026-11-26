@@ -2,23 +2,39 @@
 
 # Mathematical Investment and Trading Society
 
-We're a student club exploring investing and trading through math, statistics and code.
-Everything we build is public and open source, so members can learn from it, improve
-it, and show it to the world.
+Hi, we're MITS! We're a student club for people who like markets, math, and code, and
+who want to figure out what actually works in investing instead of just guessing.
 
-## Projects
+Everything we build lives here and is open source. Anyone can look at it, try it, and
+learn from it, and members can add to it.
 
-| Project | What it does | Try it |
-|---|---|---|
-| [**MITS Backtester**](https://github.com/mits-fhda/mits-backtester) | Tests quant trading strategies (trend following, momentum, mean reversion, volatility targeting) against buy-and-hold, with professional risk metrics and Monte Carlo simulation | [Live web app](https://mits-backtester.streamlit.app/) |
+## What we've built
 
-## Get involved
+Our first project is the **[MITS Backtester](https://github.com/mits-fhda/mits-backtester)**.
+You pick a trading strategy, and it replays that strategy over 30 years of real market
+data to see if it would have beaten simply buying and holding. So far we've tested
+trend following, momentum, buying the dip, and volatility targeting. The short version:
+none of them made much more money than buy-and-hold, but a couple of them would have
+dodged most of the 2008 crash.
 
-- **New to code?** Start with the [live web app](https://mits-backtester.streamlit.app/).
-  No install needed. Pick a ticker and a strategy and see how it would have done.
-- **Want to build?** Read the [contributing guide](https://github.com/mits-fhda/mits-backtester/blob/main/CONTRIBUTING.md).
-  Adding your own strategy takes one Python function.
-- **Have a question or an idea?** Post it in [Discussions](https://github.com/mits-fhda/mits-backtester/discussions).
-- **Want to join the GitHub organization?** Ask a club officer for an invite.
+You can [try it in your browser](https://mits-backtester.streamlit.app/) without
+installing anything.
 
-*Educational projects. Nothing here is investment advice.*
+## Getting involved
+
+If you've never coded before, start with the
+[web app](https://mits-backtester.streamlit.app/). Pick a ticker, pick a strategy, and
+play around.
+
+If you want to build something, the
+[contributing guide](https://github.com/mits-fhda/mits-backtester/blob/main/CONTRIBUTING.md)
+walks you through adding your own strategy. It's one Python function, and you don't need
+to be an expert.
+
+Questions and ideas go in
+[Discussions](https://github.com/mits-fhda/mits-backtester/discussions). To join the
+organization here on GitHub, ask a club officer for an invite.
+
+---
+
+Everything here is for learning. None of it is investment advice.
